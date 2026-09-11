@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-* { box-sizing: border-box; }
-html, body { background: #0A0A0A; overflow-x: hidden; }
-body{font-family:Inter,sans-serif}
+*{box-sizing:border-box}
+html{background:#090909;scroll-behavior:smooth}
+body{margin:0;background:#090909;color:#fff;font-family:Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+button,input,textarea{font:inherit}
+button,a{-webkit-tap-highlight-color:transparent}
+button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid #FF6B00;outline-offset:2px}
+::selection{background:#FF6B00;color:#fff}
