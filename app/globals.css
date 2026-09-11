@@ -1,5 +1,7 @@
-html,body{margin:0!important;padding:0!important;width:100%!important;overflow-x:hidden!important;background:#0A0A0A!important}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{margin:0!important;padding:0!important;width:100%!important;min-height:100%!important;overflow-x:hidden!important;background:#0A0A0A!important}
 *{box-sizing:border-box!important}
-.grid{width:100%!important;display:flex!important;flex-direction:column!important;gap:16px!important;padding:16px!important}
-@media(min-width:768px){.grid{flex-direction:row!important;flex-wrap:wrap!important}.grid>div{width:32%!important}}
-.card{width:100%!important;max-width:100%!important;background:#171717!important;border:1px solid #262626!important;border-radius:16px!important;overflow:hidden!important}
+body{font-family:Inter,Arial,sans-serif;color:#fff}
