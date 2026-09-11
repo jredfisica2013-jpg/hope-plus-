@@ -3,3 +3,5 @@
 @tailwind utilities;
 * { box-sizing: border-box; }
 html, body { background: #0A0A0A; overflow-x: hidden; }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+body{font-family:Inter,sans-serif}
